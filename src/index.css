@@ -1,0 +1,169 @@
+@import "./styles/main.css";
+@import "./styles/datePicker.css";
+
+.icon-margins {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.icon-margins-left {
+  margin-left: 10px;
+}
+.icon-margins-right {
+  margin-right: 10px;
+}
+
+.sidebar.menu-min .nav-list > li > a {
+  position: relative;
+  height: 39px;
+  line-height: 37px;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.sidebar.menu-min .nav-list > li > .submenu {
+  position: absolute;
+  z-index: 1026;
+  left: 42px;
+  top: -1px;
+  margin-top: 0px;
+  padding-bottom: 2px;
+  width: 176px;
+  display: none !important;
+}
+
+.sidebar.menu-min .nav-list > li:hover > .submenu,
+.sidebar.menu-min .nav-list > li.hover-show > .submenu {
+  display: none !important;
+}
+
+.navbar-toggle {
+  background-color: grey;
+}
+
+.navbar-toggle:hover {
+  background-color: grey;
+}
+
+.navbar-toggle:focus {
+  background-color: grey;
+}
+
+.navbar-toggle:active {
+  background-color: grey;
+}
+
+.new {
+  margin-top: 85px;
+  margin-left: -45px;
+}
+
+@media (max-width: 991px) {
+  .sidebar.new2 {
+    margin-top: 85px;
+    margin-left: -45px;
+    z-index: 1039;
+    background-color: whitesmoke;
+  }
+
+  .imgCar {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) {
+  .sidebar.new2 {
+    display: none;
+  }
+}
+
+.sidebar .sidebar-toggle {
+  border-style: solid;
+  border-width: 0 0 1px;
+  text-align: center;
+  padding: 5px 0;
+  position: relative;
+}
+.sidebar .sidebar-toggle > .ace-icon {
+  padding: 5px 7px;
+  line-height: 18px;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  margin-left: -10px;
+}
+.sidebar .sidebar-toggle:before {
+  content: "";
+  display: block;
+  height: 0;
+  border-top: 0px solid;
+  border-color: inherit;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 13px;
+}
+
+.sidebar.menu-min .sidebar-toggle > .ace-icon {
+  font-size: 15px;
+  padding: 5px 7px;
+  line-height: 18px;
+  border-width: 1px;
+  margin-left: -3px;
+}
+
+.mtop {
+  margin-top: 25px;
+}
+
+.mtop-10 {
+  margin-top: 10px;
+}
+
+.mbot {
+  margin-bottom: 25px;
+}
+
+.mbot-55 {
+  margin-bottom: 55px;
+}
+
+.mleft {
+  margin-left: 15px;
+}
+
+.mleft-10 {
+  margin-left: 13px;
+}
+
+.mright-10 {
+  margin-right: 13px;
+}
+
+.mleft-15 {
+  margin-left: -15px;
+}
+
+.mleft5 {
+  margin-left: -5px;
+}
+
+.nav-tabs > li > a {
+  padding: 7px 12px 8px;
+  border-radius: 0 !important;
+  border-color: #74acdb;
+  background-color: #74acdb;
+  color: #fff;
+  margin-right: -1px;
+  line-height: 18px;
+  position: relative;
+}
+
+.nav-tabs > li > a.activenav {
+  background-color: #fff;
+  color: #74acdb;
+}
+
+.blue {
+  color: #74acdb;
+  font-size: 18px;
+}

@@ -1,0 +1,107 @@
+// LogOut Button
+
+.buttonLogOut {
+  color: $white;
+  background-color: $redAmac;
+  border: 0;
+}
+
+// Search Button
+
+.is-search{
+  background-color: $purpleAmac;
+  border-color: $purpleAmac;
+  color: $white;
+}
+
+// Floating button
+.is-fab {
+  width: 100%;
+  position: fixed;
+  bottom: 1rem;
+  z-index: 100;
+  right: 1rem;
+}
+
+.has-content-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.is-redAmac_GoHome {
+  color: $white;
+  background-color: $redAmac;
+  //border: solid $white;
+  border: 0;
+  -webkit-box-shadow: 5px 8px 18px -5px rgba(102, 102, 102, 1);
+  -moz-box-shadow: 5px 8px 18px -5px rgba(102, 102, 102, 1);
+  box-shadow: 5px 8px 18px -5px rgba(102, 102, 102, 1);
+}
+
+.is-blueAmac{
+  color: $white;
+  background-color: $blueAmac;
+  border: 0;
+  &.disabled{
+    color: $white;
+    background-color: $blueAmac;
+  }
+}
+
+// Footer button
+
+.buttonFooter {
+  color: $white;
+  background-color: $redAmac;
+  border: 0;
+  &.buttonFooter_right {
+    border-bottom-right-radius: 0.25rem;
+  }
+  &.buttonFooter_left {
+    border-bottom-left-radius: 0.25rem;
+  }
+  &.hasBorderRight{
+    border-right: 1px solid #fff;
+  }
+}
+
+.buttonFooterWhite {
+  color: $redAmac;
+  background-color: $white;
+  border: 0;
+  &.buttonFooter_right {
+    border-bottom-right-radius: 0.25rem;
+  }
+  &.buttonFooter_left {
+    border-bottom-left-radius: 0.25rem;
+  }
+  &.hasBorderRight{
+    border-right: 1px solid $redAmac;
+  }
+}
+
+
+// Accordion button
+
+.buttonAccordion {
+  color: $lightgreyAmac;
+  background-color: $greyAmac;
+  border: 0;
+  &.buttonAccordion_right {
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  &.buttonAccordion_left {
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+  }
+  &.buttonAccordion_center {
+    border-radius: 0.25rem;
+  }
+}
+
+//Disabe Delete button
+
+.isDisabled{
+  color: #f5f5f5;
+}

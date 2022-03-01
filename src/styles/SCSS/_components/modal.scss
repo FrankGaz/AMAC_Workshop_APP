@@ -1,0 +1,79 @@
+.modal-card-foot {
+  background-color: $white;
+  justify-content: flex-end;
+  border-top: 0;
+}
+
+.modal-card {
+  &.modalDone {
+    &.modalSuccess {
+      .modal-card-head {
+        background-color: $greenSuccess;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      .modal-card-foot {
+        justify-content: center;
+        max-width: 100%;
+      }
+    }
+    &.modalWarning {
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      .modal-card-head {
+        background-color: $yellowWarning;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      .modal-card-foot {
+        justify-content: center;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.modal-card-head {
+  background-color: $white;
+  border-bottom: 0;
+  &.modalError {
+    background-color: $redAmac;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    .modal-card-title {
+      color: $white;
+    }
+  }
+  &.modalSuccess {
+    background-color: $greenSuccess;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    .modal-card-title {
+      color: $white;
+    }
+  }
+  &.modalWarning {
+    background-color: $yellowWarning;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    .modal-card-title {
+      color: $black;
+    }
+  }
+  &.modalWarningDelete {
+    background-color: $yellowWarning;
+    .modal-card-title {
+      color: $black;
+    }
+  }
+
+  .modal-card-title {
+    max-width: 90%;
+    line-height: 1.5;
+  }
+  .closeModalButton {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

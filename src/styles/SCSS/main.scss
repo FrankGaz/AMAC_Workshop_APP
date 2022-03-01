@@ -1,0 +1,10 @@
+@import "vars.scss", "_layout/positions.scss", "_layout/flexStyles.scss",
+  "_layout/sizes.scss", "_textStyles/textStyles.scss", "_components/body.scss",
+  "_components/modal.scss", "_components/home.scss", "_components/card.scss",
+  "_components/interventions.scss", "_components/buttons.scss",
+  "_components/responsiveTables.scss", "_components/login.scss",
+  "_components/datePicker.scss", "_components/bulmaDivider.scss",
+  "modificators.scss";
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

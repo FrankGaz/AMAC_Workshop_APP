@@ -1,0 +1,153 @@
+{
+    "data": [
+        {
+            "name": "Dashboard",
+            "url": "/home",
+            "icon": "home"
+        },
+        {
+            "name": "configuration",
+            "url": "/home/home/configuration/general",
+            "icon": "cog",
+            "children": [
+                {
+                    "name": "general",
+                    "url": "/home/configuration/general",
+                    "icon": ""
+                },
+                {
+                    "name": "clients",
+                    "url": "/home/configuration/clients",
+                    "icon": ""
+                },
+                {
+                    "name": "parameters",
+                    "url": "/home/configuration/parameters/basics",
+                    "icon": "",
+                    "children": [
+                        {
+                            "name": "basics",
+                            "url": "/home/configuration/parameters/basics",
+                            "icon": ""
+                        },
+                        {
+                            "name": "clients",
+                            "url": "/home/configuration/parameters/clients",
+                            "icon": ""
+                        },
+                        {
+                            "name": "expedients",
+                            "url": "/home/configuration/parameters/expedients",
+                            "icon": ""
+                        },
+                        {
+                            "name": "vehicles",
+                            "url": "/home/configuration/parameters/vehicles",
+                            "icon": ""
+                        },
+                        {
+                            "name": "employees",
+                            "url": "/home/configuration/parameters/employees",
+                            "icon": ""
+                        },
+                        {
+                            "name": "fines",
+                            "url": "/home/configuration/parameters/fines",
+                            "icon": ""
+                        },
+                        {
+                            "name": "forms",
+                            "url": "/home/configuration/parameters/forms",
+                            "icon": ""
+                        },
+                        {
+                            "name": "property",
+                            "url": "/home/configuration/parameters/property",
+                            "icon": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "importations",
+                    "url": "/home/configuration/parameters/importations",
+                    "icon": ""
+                },
+                {
+                    "name": "exportations",
+                    "url": "/home/configuration/parameters/exportations",
+                    "icon": ""
+                }
+            ]
+        },
+        {
+            "name": "unity",
+            "url": "/home/unity",
+            "icon": "folder-open"
+        },
+        {
+            "name": "vehicles",
+            "url": "/home/vehicles",
+            "icon": "ambulance"
+        },
+        {
+            "name": "itv",
+            "url": "/home/itv",
+            "icon": "calendar"
+        },
+        {
+            "name": "vehiclesTest",
+            "url": "/home/vehicles",
+            "icon": "car"
+        },
+        {
+            "name": "services",
+            "url": "/home/services",
+            "icon": "wrench"
+        },
+        {
+            "name": "insurances",
+            "url": "/home/insurances",
+            "icon": "suitcase"
+        },
+        {
+            "name": "suppliers",
+            "url": "/home/suppliers",
+            "icon": "book"
+        },
+        {
+            "name": "human_resources",
+            "url": "/home/human_resources",
+            "icon": "users"
+        },
+        {
+            "name": "combustibleyKm",
+            "url": "/home/fuelAndKms",
+            "icon": "tachometer-alt"
+        },
+        {
+            "name": "reports",
+            "url": "/home/reports",
+            "icon": "chart-line"
+        },
+        {
+            "name": "fines",
+            "url": "/home/fines",
+            "icon": "file-alt"
+        },
+        {
+            "name": "invoices_validation",
+            "url": "/home/invoices_validation",
+            "icon": "check-square"
+        },
+        {
+            "name": "audits",
+            "url": "/home/audits",
+            "icon": "server"
+        },
+        {
+            "name": "forms",
+            "url": "/home/forms",
+            "icon": "list"
+        }
+    ]
+}

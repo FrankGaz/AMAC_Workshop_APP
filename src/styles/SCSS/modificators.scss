@@ -1,0 +1,263 @@
+@import "vars.scss";
+
+//LAYOUT SPACING
+
+.no-padding-x {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.marginTop80 {
+  margin-top: 80px;
+}
+
+//HEADER
+
+.navbar {
+  box-shadow: 0px -2px 15px -6px #000000;
+  .hero {
+    margin: 0 -1.5rem 0 -1.5rem;
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+    .hero-body {
+      padding: 0;
+    }
+  }
+  .tag-location {
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    background-color: $white;
+    color: $redAmac;
+    //border-top: 1px solid $redAmac;
+    border-bottom: 1px solid $redAmac;
+    border-radius: 0;
+  }
+}
+
+.navbar-menu {
+  box-shadow: none;
+}
+
+.breadcrumb {
+  ul {
+    li:nth-child(2n) {
+      a {
+        padding-left: 0;
+      }
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
+
+//POSITION
+
+.relative {
+  position: relative;
+}
+
+//CARDS
+
+.card {
+  &.home-slider {
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(204, 204, 204, 1);
+    box-shadow: 0px 1px 5px 0px rgba(204, 204, 204, 1);
+  }
+}
+.card-header {
+  &.grey_box_center {
+    display: flex;
+    justify-content: center;
+    background-color: $lightgreyAmac;
+    box-shadow: none;
+    .card-header-title {
+      justify-content: center;
+    }
+  }
+}
+
+//TABLE
+@media (max-width: 640px) {
+  .table td {
+    font-size: 10px !important;
+  }
+}
+.maintenancesBoxTable {
+  td {
+    .tag {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+//BOX
+.box {
+  &.boxYellow {
+    background-color: #fffaeb;
+  }
+}
+
+.boxShadow {
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+}
+
+//CARROUSEL
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  left: 2px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: $greyAmac;
+}
+
+//ACCORDION
+// .MuiAccordionSummary-root{
+//   flex-direction: column;
+// }
+
+.MuiPaper-elevation1 {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+  color: #4a4a4a;
+}
+.MuiAccordion-rounded {
+  border-radius: 6px !important;
+  &:first-child {
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+  }
+}
+
+.MuiAccordionDetails-root {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.accordionCar {
+  .ace-icon {
+    display: none;
+  }
+}
+
+// Containers color modificators
+
+.redContainer {
+  background-color: $redAmac;
+  border-color: $redAmac;
+  color: $white;
+}
+
+.whiteRedContainer {
+  background-color: $white;
+  border-color: $white;
+  color: $redAmac;
+}
+
+.button {
+  &.is-danger {
+    background-color: $redAmac;
+    border-color: $redAmac;
+  }
+}
+
+//LABEL
+
+.label {
+  &.isSearchBox {
+    font-size: 0.75em;
+  }
+}
+
+//DATAPICKER
+.MuiCollapse-wrapperInner {
+  .DayPickerInput {
+    input {
+      width: 100%;
+    }
+  }
+}
+.budgetDataBox {
+  .DayPickerInput {
+    input {
+      width: 100%;
+    }
+  }
+}
+
+.interventionDataBox {
+  .DayPickerInput {
+    input {
+      width: 100%;
+    }
+  }
+}
+
+// Temporary Modificators
+
+.help-block {
+  display: none !important;
+}
+.ace-icon {
+  display: none;
+}
+
+//Services NAVBAR
+
+.navbar {
+  &.is-fixed-top {
+    &.NavBarSubTop {
+      top: 76px;
+      z-index: 20;
+    }
+    @media (min-width: 1024px) {
+      &.NavBarSubTop {
+        top: 57px;
+        z-index: 20;
+      }
+    }
+  }
+}
+
+.box {
+  &.navbar {
+    border-radius: 0;
+  }
+}
+
+//Loading BAR LinearProgress
+.MuiLinearProgress-colorPrimary{
+  background-color: $lightgreyAmac !important;
+}
+.MuiLinearProgress-barColorPrimary {
+  background-color: $greyAmac !important;
+}
+
+//FOOTER NAVBAR
+
+@media (min-width: 1024px) {
+  .navbar {
+    &.footerNavBar {
+      display: inherit;
+    }
+  }
+}

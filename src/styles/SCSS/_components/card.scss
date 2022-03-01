@@ -1,0 +1,49 @@
+.card {
+  .card-image {
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  &.isHorizontal {
+    display: flex;
+    width: 100%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    .card-image {
+      flex: 4;
+      flex-shrink: 1;
+      display: flex;
+      .image {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        img {
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+    .card-content {
+      flex: 3;
+    }
+    &.isCardProfile {
+      .card-image {
+        flex: 1;
+        flex-shrink: 1;
+        display: flex;
+      }
+      @media screen and (max-width: 640px) {
+        .card-image {
+          flex: 2;
+          flex-shrink: 1;
+          display: flex;
+        }
+      }
+    }
+  }
+}

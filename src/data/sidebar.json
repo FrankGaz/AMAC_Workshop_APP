@@ -1,0 +1,20 @@
+{
+  "data": [
+  
+    {
+      "name": "Inicio",
+      "url": "/home",
+      "icon": "home"
+    },
+    {
+      "name": "Teléfonos",
+      "url": "/home/phones",
+      "icon": "phone-alt"
+    },
+    {
+      "name": "Alertas y Avisos",
+      "url": "/home/alarms",
+      "icon": "envelope"
+    }
+  ]
+}

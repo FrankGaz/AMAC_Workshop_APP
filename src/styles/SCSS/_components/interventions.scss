@@ -1,0 +1,255 @@
+//TAG STYLES BY STATUS
+
+.abrirPresupuesto {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #3e8ed0;
+  color: #fff;
+}
+
+.sinPresupuesto {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #3e8ed0;
+  color: #fff;
+}
+
+.conPresupuesto {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #f5f5f5;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.pendienteSolicitarAutorizacion {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #ffe08a;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.rechazado {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #c84527;
+  color: #fff;
+}
+
+.autorizadoTaller {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #3e8ed0;
+  color: #fff;
+}
+
+.finalizado {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #effaf5;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.cerrado {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #48c78e;
+  color: #fff;
+}
+
+.statusTag{
+
+
+  .abrirPresupuesto {
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    background-color: #3e8ed0;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .sinPresupuesto {
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    background-color: #3e8ed0;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .conPresupuesto {
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    background-color: #f5f5f5;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+  }
+  
+  .pendienteSolicitarAutorizacion {
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    background-color: #ffe08a;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+  }
+  
+  .rechazado {
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    background-color: #c84527;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .autorizadoTaller {
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    background-color: #3e8ed0;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .finalizado {
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    background-color: #effaf5;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+  }
+  
+  .cerrado {
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    background-color: #48c78e;
+    color: #fff;
+    width: 100%;
+  }
+
+
+}
